@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 247, 247);
+}
+.container{
+    margin: 15px;
+    border-radius: 5px;
+}
+.question{
+    display: flex;
+    justify-content: center;
+}
+.question p{
+    background-color: aqua;
+    font-size: xx-large;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.answer{
+    display: flex;
+    justify-content: center;
+}
+.answer p{
+    width: 50%;
+    background-color: rgb(209, 250, 250);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+}
+.discription{
+    display: flex;
+    justify-content: center;
+}
+.discription table{
+    border: solid;
+    border-width: 2px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.discription table tr th{
+    background-color: aqua;
+    padding: 5px;
+    border-radius: 5px;
+}
+.discription table tr td{
+    background-color: rgb(231, 247, 247);
+    padding: 5px;
+    border-radius: 5px;
+}
+.registration{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.registration p{
+    font-size: 18px;
+}
