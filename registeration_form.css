@@ -1,4 +1,141 @@
+
+
+
 *{
     margin: 0;
     padding: 0;
-}
+    font-family: 'Mulish', sans-serif;
+  }
+  body{
+    background-color: rgba(247, 247, 247, 0.836);
+  }
+  .register{
+    background-color: rgb(60, 101, 134);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .register p{
+    font-size: 60px;
+    color: white;
+  }
+  .top{
+    display: flex;
+  }
+  .left{
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   margin: 15px;
+   padding: 15px;
+  }
+  .left input{
+    width: 50%;
+    height: 4vh;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+  #card_no{
+    margin-top: 5px;
+  }
+  .gender{
+    display: flex;
+    flex-direction: row; 
+  }
+  .gender input{
+    width: auto !important;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .right{
+    width: 50%;
+    
+  }
+  
+  .id{
+    background-color: rgb(60, 101, 134);
+    height: 4vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  #card_no{
+    margin-left: 25px;
+    width: 30%;
+    height: 4vh;
+    border-width: 1px;
+    border-radius: 5px;
+  }
+  .id p{
+    font-size: 16px;
+    color: white;
+  }
+  
+        /* top-2 */
+  
+  
+  .status{
+    display: flex;
+    flex-direction: row; 
+  }
+  .status input{
+    width: auto !important;
+    margin-left: 15px;
+    margin-right: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .info{
+    background-color: rgb(60, 101, 134);
+    height: 4vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+  .info p{
+    font-size: 16px;
+    color: white;
+  }
+  
+  .border{
+    border: solid;
+    border-width:1px;
+    border-color: rgb(49, 49, 49);
+    margin-left:40px;
+    margin-right: 40px;
+    margin: 15px;
+  }
+  .instructions{
+    margin: 5px;
+    margin-left:40px;
+    padding: 5px;
+  }
+  .instructions ol li input{
+    margin-left: 25px;
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+  }
+  .btn{
+    width: 12%;
+    background-color: rgb(60, 101, 134);
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    padding: 5px;
+    color: white;
+  }
+  .btn:hover{
+    background-color: #1e78ff;
+    transition: .15s;
+    color: white;
+    transition-timing-function: linear;
+  }
