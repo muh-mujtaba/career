@@ -8,7 +8,7 @@
     background-color: rgba(247, 247, 247, 0.836);
   }
   .register{
-    background-color: rgb(60, 101, 134);
+    background-color: #2B3260;
     height: 15vh;
     display: flex;
     justify-content: center;
@@ -54,7 +54,7 @@
   }
   
   .id{
-    background-color: rgb(60, 101, 134);
+    background-color: #2B3260;
     height: 4vh;
     display: flex;
     justify-content: left;
@@ -89,7 +89,7 @@
     padding-left: 15px;
   }
   .info{
-    background-color: rgb(60, 101, 134);
+    background-color: #2B3260;
     height: 4vh;
     display: flex;
     justify-content: left;
@@ -124,7 +124,7 @@
   }
   .btn{
     width: 12%;
-    background-color: rgb(60, 101, 134);
+    background-color: #2B3260;
     cursor: pointer;
     border-radius: 5px;
     border-width: 1px;

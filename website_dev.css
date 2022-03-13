@@ -12,7 +12,7 @@
     justify-content: center;
 }
 .question p{
-    background-color: rgb(60, 101, 134);
+    background-color: #2B3260;
     font-size: xx-large;
     border-radius: 5px;
     padding: 5px;
@@ -41,7 +41,7 @@
     border-radius: 5px;
 }
 .discription table tr th{
-    background-color: rgb(60, 101, 134);
+    background-color: #2B3260;
     padding: 5px;
     border-radius: 5px;
     color: white;

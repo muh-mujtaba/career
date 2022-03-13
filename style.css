@@ -3,7 +3,9 @@
     margin: 0;
     padding: 0;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .container{
     background-image: url("./images/back.jpg");
     background-size: 100%;
@@ -30,10 +32,13 @@
 }
 .navbar ul li{
     display: inline-block;
-    color: white;
     font-size: 20px;
     padding-bottom: 25px;
     margin-left: 45px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
 }
 .scroll{
     display: flex;
@@ -42,11 +47,16 @@
     margin-top: 250px;
 }
 .scroll a{
-    background-color: brown;
+    background-color: #2B3260;
     padding: 5px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 20px;
+    text-decoration: none;
     cursor: pointer;
+    color: white;
+    border: solid;
+    border-width: 2px;
+    border-color: #9FB3D4;
 }
 .courses{
     display: flex;
