@@ -7,7 +7,7 @@ html{
     scroll-behavior: smooth;
 }
 .container{
-    background-image: url("./images/back.jpg");
+    background-image: url("../images/back.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
     height: 115vh;
