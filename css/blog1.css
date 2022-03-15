@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Mulish', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -138,4 +139,29 @@ html{
     border: solid;
     border-width: 1px;
     border-color: black;
+}
+.blog5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lasthead h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FD5C3F;
+    margin: 5px;
+}
+.last{
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    margin: 15px;
+}
+.last img{
+    width: 70%;
+}
+.last p{
+    display: flex;
+    justify-content: center;
 }
