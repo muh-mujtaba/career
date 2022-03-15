@@ -72,3 +72,29 @@ html{
     margin-top: 15px;
     width: 60%;
 }
+
+
+
+.bottom3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tp p{ 
+    width: 50%; 
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bt{
+
+}
+.bt img{
+    width: 80%;
+    margin-left: 35px;
+}
