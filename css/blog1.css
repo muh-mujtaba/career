@@ -126,8 +126,16 @@ html{
     flex-direction: column;
 }
 .blg4 h2{
-    width: 50%;
+    width: 38%;
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
 }
 .blg4 p{
-    width: 50%;
+    width: 38%;
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
 }
