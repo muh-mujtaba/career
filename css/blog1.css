@@ -98,3 +98,14 @@ html{
     width: 80%;
     margin-left: 35px;
 }
+.blog4{
+    
+}
+.back img{
+    position: relative;
+    width: 50%;
+}
+.text{
+    position: absolute;
+    top: 620%;
+}
