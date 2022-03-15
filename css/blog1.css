@@ -99,13 +99,35 @@ html{
     margin-left: 35px;
 }
 .blog4{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .back img{
     position: relative;
-    width: 50%;
+    width: 100%;
 }
 .text{
     position: absolute;
-    top: 620%;
+    top: 615%;
+    left: 30.70%;
+}
+.text p{
+    border: solid;
+    border-width: 1px;
+    padding: 10px;
+    font-size: 25px;
+    background-color: white;
+}
+.blg4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blg4 h2{
+    width: 50%;
+}
+.blg4 p{
+    width: 50%;
 }
