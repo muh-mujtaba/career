@@ -2,15 +2,30 @@
     margin: 0;
     padding: 0;
 }
+.navbar{
+    background-color: rgb(20, 196, 137);
+}
+.navbar img{
+    width: 20%;
+    display: inline-block;
+    padding-top: 5px;
+}
 .nav{
+    width: 70%;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.nav ul{
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-right: 100px;
 }
 .nav ul li{
     display: inline-block;
     padding: 5px;
     margin: 15px;
     font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
 }
