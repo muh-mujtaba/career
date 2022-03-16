@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+}
+.nav ul li{
+    display: inline-block;
+    padding: 5px;
+    margin: 15px;
+    font-size: 22px;
+}
