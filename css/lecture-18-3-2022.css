@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(240, 245, 243);
+}
 .head{
     background-color: rgb(80, 148, 238);
     display: flex;
@@ -13,6 +16,7 @@
 }
 form{
     margin: 5px;
+    margin-top: 100px;
     padding: 5px;
     display: flex;
     justify-content: center;
@@ -48,4 +52,5 @@ select{
     border-radius: 5px;
     background-color: rgb(80, 148, 238);
     color: white;
+    transition: .3s;
 }
