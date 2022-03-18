@@ -137,3 +137,15 @@
     color: white;
     transition-timing-function: linear;
   }
+
+.link{
+  background-color: #2B3260;
+  color: white;
+  border-radius: 2px;
+  text-decoration: none;
+  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  }
