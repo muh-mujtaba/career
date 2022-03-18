@@ -10,11 +10,26 @@
     <div class="head">
         <h1>Registration Form</h1>
     </div>
-    <form class="gh">
+
+    <form>
+        Select your dgree<select>
+            <option value="1">BSC</option>
+            <option value="2">MSC</option>
+            <option value="3">PHD</option>
+        </select>
         User Name<input type="text" placeholder="Enter your name" name="name">
         Email<input type="email" placeholder="Enter your email" name="email">
         Password<input type="password" placeholder="Enter your password" name="password">
+        Date<input type="date">
+
+        <div class="gender">
+        Gender: <input type="radio" name="gender" value="1">Male
+        <input type="radio" name="gender" value="2">Female
+        <input type="radio" name="gender" value="3">Other
+    </div>
+        
         <input type="submit" class="btn">
     </form>
+
 </body>
 </html>
