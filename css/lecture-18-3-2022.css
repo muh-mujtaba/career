@@ -36,7 +36,10 @@ form{
     flex-direction: column;
     align-items: center;
 }
-input{
+.inp label{
+    width: 30%;
+}
+.inp input{
     width: 30%;
     margin: 3px;
     padding: 3px;
@@ -60,6 +63,7 @@ input{
 .btn input{
     width: 10%;
     cursor: pointer;
+    padding: 5px;
 }
 
 .btn input:hover{
