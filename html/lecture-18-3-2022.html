@@ -17,15 +17,22 @@
             <option value="2">MSC</option>
             <option value="3">PHD</option>
         </select>
-        User Name<input type="text" placeholder="Enter your name" name="name">
-        Email<input type="email" placeholder="Enter your email" name="email">
-        Password<input type="password" placeholder="Enter your password" name="password">
-        Date<input type="date" name="date">
+        <label htmlFor="User-Name">User Name</label>
+        <input type="text" placeholder="Enter your name" name="name" id="User-Name">
+        <label htmlFor="Email">Email</label>
+        <input type="email" placeholder="Enter your email" name="email" id="Email">
+        <label htmlFor="Password">Password</label>
+        <input type="password" placeholder="Enter your password" name="password" id="Password">
+        <label htmlFor="Date">Date</label>
+        <input type="date" name="date" id="Date">
 
         <div class="gender">
-        Gender: <input type="radio" name="gender" value="1">Male
-        <input type="radio" name="gender" value="2">Female
-        <input type="radio" name="gender" value="3">Other
+        <label htmlFor="male">Male:</label>
+         <input type="radio" name="gender" value="1" id="male">
+         <label htmlFor="female">Female:</label>
+        <input type="radio" name="gender" value="2" id="female">
+        <label htmlFor="other">Other:</label>
+        <input type="radio" name="gender" value="3" id="other">
     </div>
         
         <input type="submit" class="btn">
