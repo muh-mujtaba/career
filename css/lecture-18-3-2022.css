@@ -36,6 +36,9 @@ form{
     flex-direction: column;
     align-items: center;
 }
+.inp label{
+    display: inline;
+}
 input{
     width: 30%;
     margin: 3px;
@@ -54,9 +57,16 @@ input{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 10%;
+    margin: 5px;
+    padding: 5px;
 }
-.btn:hover{
+.btn input{
+    width: 10%;
+    cursor: pointer;
+}
+
+.btn input:hover{
+    
     border: solid;
     border-width: 1px;
     border-color: black;
