@@ -13,6 +13,7 @@ body{
 .head h1{
     margin: 5px;
     padding: 5px;
+    color: white;
 }
 form{
     margin: 5px;
