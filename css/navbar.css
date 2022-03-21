@@ -1,31 +1,20 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
-} */
-.navbar{
-    background-color: rgb(20, 196, 137);
 }
-.navbar img{
-    width: 20%;
-    display: inline-block;
-    padding-top: 5px;
+.container{
+    background-color: aquamarine;
 }
-.nav{
-    width: 70%;
-    display: inline-block;
-    padding-bottom: 5px;
-}
-.nav ul{
+.container ul{
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
+    
 }
-.nav ul li{
-    display: inline-block;
-    padding: 5px;
+.container ul li{
+    list-style: none;
     margin: 15px;
-    font-size: 22px;
-    text-decoration: none;
+    padding: 15px;
+    font-size: 25px;
     cursor: pointer;
-    color: white;
 }
