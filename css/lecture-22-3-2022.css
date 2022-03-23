@@ -3,7 +3,7 @@
     padding: 0;
 }
 .top{
-    background-color: aquamarine;
+    background-color: #E8A82C;
     display: flex;
 }
 .top img{
@@ -20,8 +20,9 @@
 }
 .navbar ul li{
     list-style: none;
-    padding: 5px;
-    font-size: 20px;
+    padding: 15px;
+    font-size: 23px;
+    color: white;
 }
 .middle{
     background-image: url(../gallery/teamwork-making-online-blog.jpg);
