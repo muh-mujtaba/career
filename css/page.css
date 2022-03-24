@@ -2,10 +2,16 @@
     margin: 0;
     padding: 0;
 }
+
+
+/* start navigation-bar */
+
 .head{
     width: 100%;
     background-color: #FDFDFD;
     display: flex;
+    margin-top: 15px;
+    margin-bottom: 5px;
 }
 .hleft{
 width: 50%;
@@ -13,7 +19,8 @@ display: flex;
 justify-content: left;
 }
 .hleft p{
-
+padding: 5px;
+font-size: 18px;
 }
 .hright{
 width: 50%;
@@ -28,7 +35,12 @@ list-style: none;
 padding: 5px;
 margin-right: 5px;
 }
+.hright ul li select{
+border: none;
+}
 
+
+/* middle navigation-bar */
 
 .middle{
 background-color: #FDFDFD;
@@ -37,26 +49,48 @@ width: 100%;
 /* position: relative; */
 }
 .mleft{
-width: 30%;
+width: 20%;
 display: flex;
 justify-content: left;
 }
 .mleft img{
-width: 30%;
+width: 50%;
+padding: 5px;
 }
 .mmiddle{
-    width: 40%;
+    width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     height: 10vh;
     /* position: absolute; */
 }
 .mmiddle select{
-    width: 10%;
+    width: 20%;
+    border: solid;
+    border-width: 1px;
+    border-color: #E93939;
+    padding: 5px;
+    border-radius: 5px;
 }
-.mmiddle select input{
-width: 30%;
+
+/* error */
+
+/* .mmiddle select input{
+    width: 30%;
+    border: solid;
+    border-width: 1px;
+    border-color: #E93939;
+    padding: 5px;
+} */
+#inp{
+    width: 50%;
+    border: solid;
+    border-width: 1px;
+    border-color: #E93939;
+    padding: 5px;
+    border-radius: 5px;
+}
 }
 .mright{
 width: 30%;
@@ -74,6 +108,9 @@ margin-right: 15px;
 }
 
 
+/* last navigation-bar */
+
+
 
 .end{
     width: 100%;
@@ -81,7 +118,7 @@ background-color: black;
 display: flex;
 }
 .eleft{
-width: 30%;
+width: 20%;
 display: flex;
 justify-content: left;
 padding: 5px;
@@ -96,7 +133,7 @@ border: none;
 font-size: 18px;
 }
 .emiddle{
-width: 50%;
+width: 60%;
 display: flex;
 align-items: center;
 margin-left:15px ;
@@ -104,10 +141,13 @@ margin-left:15px ;
 .emiddle ul{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .emiddle ul li{
 color: white;
 list-style: none;
+font-size: 16px;
+padding: 5px;
 }
 .emiddle ul li select{
     padding: 5px;
