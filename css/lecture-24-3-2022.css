@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-1{
+    width: 20%;
+    height: 20vh;
+    background-color: aquamarine;
+}
+.container-1:hover{
+    width: 50%;
+    transition: 0.9s;
+}
+.container-2{
+    width: 20%;
+    height: 20vh;
+    background-color: rgb(60, 245, 91);
+    margin-top: 15px;
+}
+.container-2:hover{
+    width: 20%;
+    height: 40vh;
+    transition: 0.9s;
+}
+button{
+    margin-top: 15px;
+}
+button:hover~ul{
+    display: block;
+}
+ul{
+    display: none;
+}
