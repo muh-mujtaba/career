@@ -3,14 +3,52 @@
     padding: 0;
 }
 .container-1{
-    width: 20%;
-    height: 20vh;
-    background-color: aquamarine;
+    width: 100%;
+    display: flex;
 }
-.container-1:hover{
+.sub-1{
     width: 50%;
+    
+}
+.sub-sub-1{
+    width: 30%;
+    height: 20vh;
+    background-color: aqua;
+}
+.sub-sub-1:hover{
+    width: 90%;
     transition: 0.9s;
 }
+.sub-2{
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.sub-2 p{
+    width: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-2{
     width: 20%;
     height: 20vh;
