@@ -2,3 +2,136 @@
     margin: 0;
     padding: 0;
 }
+.head{
+    width: 100%;
+    background-color: #FDFDFD;
+    display: flex;
+}
+.hleft{
+width: 50%;
+display: flex;
+justify-content: left;
+}
+.hleft p{
+
+}
+.hright{
+width: 50%;
+display: flex;
+justify-content: right;
+}
+.hright ul{
+    display: flex;
+}
+.hright ul li{
+list-style: none;
+padding: 5px;
+margin-right: 5px;
+}
+
+
+.middle{
+background-color: #FDFDFD;
+display: flex;
+width: 100%;
+/* position: relative; */
+}
+.mleft{
+width: 30%;
+display: flex;
+justify-content: left;
+}
+.mleft img{
+width: 30%;
+}
+.mmiddle{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    /* position: absolute; */
+}
+.mmiddle select{
+    width: 10%;
+}
+.mmiddle select input{
+width: 30%;
+}
+.mright{
+width: 30%;
+display: flex;
+justify-content: right;
+}
+.mright ul{
+    display: flex;
+    align-items: center;
+}
+.mright ul li{
+    list-style: none;
+padding: 5px;
+margin-right: 15px;
+}
+
+
+
+.end{
+    width: 100%;
+background-color: black;
+display: flex;
+}
+.eleft{
+width: 30%;
+display: flex;
+justify-content: left;
+padding: 5px;
+margin-left: 10px;
+background-color: #E93939;
+}
+.eleft select{
+padding: 5px;
+background-color: #E93939;
+color: white;
+border: none;
+font-size: 18px;
+}
+.emiddle{
+width: 50%;
+display: flex;
+align-items: center;
+margin-left:15px ;
+}
+.emiddle ul{
+    display: flex;
+    justify-content: center;
+}
+.emiddle ul li{
+color: white;
+list-style: none;
+}
+.emiddle ul li select{
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+.eright{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.eright ul{
+display: flex;
+justify-content: right;
+}
+.eright ul li{
+color: white;
+list-style: none;
+background-color: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 5px;
+    margin-left: 15px;
+}
