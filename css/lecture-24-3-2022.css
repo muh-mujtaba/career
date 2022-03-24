@@ -17,6 +17,14 @@
     background-color: rgb(60, 245, 91);
     margin-top: 15px;
 }
+.container-2 h1{
+    color: blue;
+    background-color: aquamarine;
+}
+.container-2 h1:hover{
+    color: blue;
+    background-color: rgb(182, 45, 125);
+}
 .container-2:hover{
     width: 20%;
     height: 40vh;
@@ -27,6 +35,7 @@ button{
 }
 button:hover~ul{
     display: block;
+    
 }
 ul{
     display: none;
