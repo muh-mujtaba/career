@@ -28,6 +28,10 @@ width: 50%;
 display: flex;
 justify-content: right;
 }
+.hright p{
+    padding-right: 7px;
+    padding-top: 5px;
+}
 .hright ul{
     display: flex;
 }
@@ -99,6 +103,10 @@ width: 50%;
 width: 30%;
 display: flex;
 justify-content: right;
+}
+.mright p{
+    padding-right: 7px;
+    height: 4vh;
 }
 .mright ul{
     display: flex;
