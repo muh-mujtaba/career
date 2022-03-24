@@ -10,6 +10,7 @@
 rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="../images/download.png">
     <title>E-Commerce</title>
 </head>
 <body>
@@ -36,8 +37,8 @@ rel="stylesheet">
                     <li>Blog</li>
                     <li>Contact Us</li>
                     <li>My Account</li>
-                    <li>
-                        <i class="material-icons">account_circle</i>
+                    <li id="account">
+                        <i id="act" class="material-icons">account_circle</i>
                     Sign/Register
                 </li>
                 </ul>
@@ -49,28 +50,59 @@ rel="stylesheet">
                 <img src="../images/letter-z-forming-shopping-cart-shape-5293ld.png" alt="">
             </div>
             <div class="mmiddle">
+
                 <select name="" id="">
                     <option>All Categories</option>
                     <option>Shoes</option>
                     <option>T-shirts</option>
-                    <input id="inp" type="text" placeholder="Search in...">
                 </select>
+
+                <div class="input">
+                    <p>|</p>
+                    <input type="text" placeholder="Search in...">
+                    <i class="material-icons">
+                        search
+                    </i>
+                </div>
+                
             </div>
             <div class="mright">
                 <ul>
-                    <li>Call us at:
+                    <i id="act" class="material-icons">
+                        phone
+                    </i>
+
+                    <li>
+                        Call us at:
                         <p style="font-size: 15px;">+92239742253</p>
                     </li>
                     <p>|</p>
-                    <li>Wishlist</li>
-                    <li>Compare</li>
-                    <li>Cart</li>
+                    <li id="act1">
+                        <i class="material-icons">
+                            favorite_border
+                        </i>
+                        Wishlist</li>
+                    <li id="act1">
+                        <i class="material-icons">
+                            compare_arrows
+                        </i>
+                        Compare</li>
+                    <li id="act1">
+                        <i class="material-icons">
+                            shopping_cart
+                        </i>
+                        Cart</li>
                 </ul>
             </div>
         </div>
 
         <div class="end">
             <div class="eleft">
+
+                <i style="color: white;" class="material-icons">
+                    menu
+                </i>
+
                 <select name="" id="">
                     <option value="">Browse Categories</option>
                     <option value="">Fashion</option>
@@ -101,11 +133,33 @@ rel="stylesheet">
             </div>
             <div class="eright">
                 <ul>
+
+                    <i class="material-icons">
+                        location_on
+                    </i>
+
                     <li>Track Oder</li>
+
+                        <i  class="material-icons">
+                            shopping_bag
+                        </i>
                     <li>Daily Deals</li>
                 </ul>
             </div>
         </div>
     </section>
+
+
+
+    <section>
+        <div class="container">
+    <img src="../gallery/cyber-monday-retail-sales.jpg" alt="">
+        </div>
+        <br>
+        <br>
+        <hr>
+        <br>
+    </section>
+
 </body>
 </html>
