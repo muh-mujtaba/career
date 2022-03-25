@@ -1,0 +1,50 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+:root{
+    --bgcolor: green;
+    --pd: 15px;
+}
+.navbar{
+    background-color: antiquewhite;
+}
+.navbar ul li:nth-child(1){
+    background-color: rgb(247, 212, 167);
+}
+.subnav li:nth-child(2){
+    background-color: rgb(252, 185, 98);
+}
+.tran{
+    background-color: var(--bgcolor);
+}
+.tran h1{
+    padding: var(--pd);
+    position: relative;
+}
+.tran h1::before{
+    content: "";
+    width: 00%;
+    height: 10px;
+    top: 0;
+    left: 0;
+    background-color: blueviolet;
+    position: absolute;
+    transition: all 2s linear;
+}
+.tran h1::after{
+    content: "";
+    width: 00%;
+    height: 10px;
+    background-color: brown;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all 2s linear;
+}
+.tran h1:hover::before{
+    width: 40%;
+}
+.tran h1:hover::after{
+    width: 30%;
+}
