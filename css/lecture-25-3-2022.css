@@ -7,10 +7,9 @@
     --bgcolor1:antiquewhite;
     --bgcolor2: rgb(247, 212, 167);
     --bgcolor3: rgb(252, 185, 98);
-    --bgcolor4:blueviolet;
-    --bgcolor5:brown;
+    --bgcolor4: blueviolet;
+    --bgcolor5: brown;
     --bgcolor6:rgb(248, 248, 121);
-    --bgcolor7:
     --pd: 15px;
 }
 .navbar{
@@ -23,7 +22,7 @@
     background-color: var(--bgcolor3);
 }
 .tran{
-    background-color: var(--bgcolo4);
+    background-color: var(--bgcolor);
 }
 .tran h1{
     padding: var(--pd);
@@ -70,9 +69,9 @@
     border-radius: 50%;
     display: none;
 }
-.photo::before{
+/* .photo::before{
     border-radius: 50%;
-}
+} */
 .photo:hover::after{
     border-radius: 50%;
     display: block;
@@ -80,6 +79,6 @@
     justify-content: center;
     align-items: center;
 }
-.photo:hover::before{
-    border-radius: 50%;
+/* .photo:hover::before{
+    border-radius: 50%; */
 }
