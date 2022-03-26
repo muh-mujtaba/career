@@ -7,6 +7,10 @@
     --bgcolor1:antiquewhite;
     --bgcolor2: rgb(247, 212, 167);
     --bgcolor3: rgb(252, 185, 98);
+    --bgcolor4:blueviolet;
+    --bgcolor5:
+    --bgcolor6:
+    --bgcolor7:
     --pd: 15px;
 }
 .navbar{
@@ -19,7 +23,7 @@
     background-color: var(--bgcolor3);
 }
 .tran{
-    background-color: var(--bgcolor);
+    background-color: var(--bgcolo4);
 }
 .tran h1{
     padding: var(--pd);
@@ -31,7 +35,7 @@
     height: 10px;
     top: 0;
     left: 0;
-    background-color: blueviolet;
+    background-color:var(--bgcolor4) ;
     position: absolute;
     transition: all 2s linear;
 }
