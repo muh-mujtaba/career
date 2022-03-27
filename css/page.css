@@ -165,7 +165,7 @@ background-color: black;
 display: flex;
 }
 .eleft{
-width: 20%;
+width: 21%;
 display: flex;
 justify-content: left;
 align-items: center;
@@ -173,7 +173,7 @@ padding: 5px;
 margin-left: 10px;
 background-color: #E93939;
 }
-.eleft select{
+/* .eleft select{
 padding: 5px;
 background-color: #E93939;
 color: white;
@@ -181,6 +181,130 @@ border: none;
 font-size: 18px;
 cursor: pointer;
 }
+.eleft select option{
+    padding: 5px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+} */
+.menu{
+
+}
+.menu li{
+list-style: none;
+cursor: pointer;
+}
+.menu li a{
+text-decoration: none;
+color: black;
+display: flex;
+justify-content: space-between;
+}
+.menu li:hover .submenu{
+    display: block;
+}
+.submenu{
+    width: 21%;
+    position: absolute;
+    background-color: white;
+    bottom: 180px;
+    left: 9px;
+    font-size: 18px;
+    display: none;
+}
+.subsubmenu li{
+    padding: 5px;
+    
+}
+.subsubmenu li a{
+    color: black;
+    
+}
+
+
+.subsubmenu1{
+    position: absolute;
+    background-color: white;
+    bottom: 210px;
+    left: 268px;
+    width: 42%;
+    font-size: 18px;
+    display: none;
+}
+.link1:hover .subsubmenu1{
+    display: block;
+}
+.subsubmenu1 li{
+    padding: 5px;
+}
+.subsubmenu1 li a{
+    color: black;
+}
+
+.subsubmenu2{
+    position: absolute;
+    background-color: white;
+    bottom: 185px;
+    left: 268px;
+    width: 71%;
+    font-size: 18px;
+    display: none;
+}
+.link2:hover .subsubmenu2{
+    display: block;
+}
+.subsubmenu2 li{
+    padding: 5px;
+}
+.subsubmenu1 li a{
+    color: black;
+}
+
+.subsubmenu3{
+    position: absolute;
+    background-color: white;
+    bottom: 159px;
+    left: 269px;
+    width: 52%;
+    font-size: 18px;
+    display: none;
+}
+.link3:hover .subsubmenu3{
+    display: block;
+}
+.subsubmenu3 li{
+    padding: 5px;
+}
+.subsubmenu3 li a{
+    color: black;
+}
+
+.subsubmenu4{
+    position: absolute;
+    background-color: white;
+    bottom: 135px;
+    left: 269px;
+    width: 49%;
+    font-size: 18px;
+    display: none;
+}
+.link4:hover .subsubmenu4{
+    display: block;
+}
+.subsubmenu4 li{
+    padding: 5px;
+}
+.subsubmenu4 li a{
+    color: black;
+}
+
+
+
+
+
+
 .emiddle{
 width: 60%;
 display: flex;
@@ -206,6 +330,12 @@ cursor: pointer;
     border: none;
     font-size: 16px;
     cursor: pointer;
+}
+.emiddle ul li select option{
+
+    background-color: white;
+    color: black;
+
 }
 .eright{
     width: 20%;
@@ -238,6 +368,159 @@ background-color: black;
 
 
 
-.container img{
+
+
+
+
+.container{
     width: 100%;
+    background-color: #F3F3F3;
+    display: flex;
+}
+.lcon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 400px;
+}
+.lcon p{
+    padding: 5px;
+}
+.lcon h1{
+padding: 5px;
+}
+.lcon a{
+    text-decoration: none;
+    color: black;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+.rcon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rcon img{
+    padding: 45px;
+}
+
+
+.containerlogo{
+    display: flex;
+    justify-content:center;
+    position: absolute;
+    top: 499px;
+}
+.sublogo{
+    width: 10%;
+    display: flex;    
+}
+.sublogo img{
+    width: 28%;
+    background-color: #F3F3F3;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+
+.containerissue{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.containeris{
+    width: 20%;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    padding: 15px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+.containerfashion{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.containerfs{
+    width: 27%;
+    background-color: #DEDAD9;
+    /* border: solid;
+    border-width: 1px;
+    border-color: black; */
+    border-radius: 5px;
+    padding: 15px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerfs img{
+    background-color: #DEDAD9;
+}
+
+
+.containeroffer{
+    /* width: 100%; */
+    margin: 5px;
+    padding: 5px;
+}
+.containeroffer h3{
+    width: 15%;
+    float: left;
+    padding-top: 35px;
+}
+.containeroffer hr{
+    width: 85%;
+    margin-bottom: 35px;
+    float: right;
+}
+
+
+
+.containercart{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.containercrt{
+    width: 45%;
+    border: solid;
+    border-width: 1px;
+    border-color: #E93939;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.containercrtextra{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.containercrtextra a{
+    text-decoration: none;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+    color: black;
+    padding: 5px;
+    font-size: 15px;
 }
