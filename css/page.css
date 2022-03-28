@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -915,6 +916,101 @@ border-radius: 2px;
 }
 
 
+
+.footermid{
+width: 100%;
+display: flex;
+background-color: black;
+padding: 35px;
+}
+.footermidl{
+width: 40%;
+display: flex;
+flex-direction: column;
+}
+.footermidltop{
+
+}
+.footermidltop h3{
+    color: white;
+    padding: 5px;
+}
+.footermidltop p{
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+}
+.footermidlbt{
+margin-top: 70px;
+display: flex;
+}
+.footermidlbt1{
+
+}
+.footermidlbt1 i{
+color: white;
+}
+.footermidlbt2{
+
+}
+.footermidlbt2 p{
+color: white;
+margin-left: 10px;
+font-size: 14px;
+}
+#ctn{
+    color: white;
+    font-size: 13px;
+}
+.footermidm{
+width: 20%;
+}
+.footermidm h3{
+    color: white;
+    padding: 5px;
+}
+.footermidm p{
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+}
+.footermidr{
+width: 20%;
+}
+.footermidr h3{
+    color: white;
+    padding: 5px;
+}
+.footermidr p{
+    color: white;
+    font-size: 14px;
+    padding: 3px;
+}
+
+
+.footerlast{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+padding: 10px;
+}
+.footerlast ul{
+
+}
+.footerlast ul li{
+    display: inline-block;
+    font-size: 13px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.footerlast ul p{
+    display: inline-block;
+    color: white; 
+    
+}
 
 
 
