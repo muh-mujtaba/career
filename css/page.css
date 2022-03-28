@@ -863,13 +863,24 @@ color: white;
     color: white;
 }
 .link{
-width: 100%;
+width: 30%;
+border: 1px solid #DEDAD9;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+margin: 5px;
+cursor: pointer;
 }
 .logo{
-width: 50%;
+width: 30%;
+}
+.logo img{
+    width: 50%;
 }
 .txt{
 width: 50%;
+font-size: 12px;
 }
 .rfootertop{
 width: 50%;
