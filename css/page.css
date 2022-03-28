@@ -565,12 +565,15 @@ padding: 5px;
     padding-top: 5px;
     font-size: 22px;
 }
+.containercrtcont h3{
+    padding-top: 5px;
+}
 .containercrtcont i{
     color: #DCAA31;
     padding-top: 2px;
 }
 .containercrtcont p{
-    padding-top: 7px;
+    padding-top: 10px;
 }
 .containercrtextra{
     display: flex;
@@ -585,6 +588,10 @@ padding: 5px;
     border-color: black;
     color: black;
     padding: 5px;
-    font-size: 15px;
+    font-size: 13px;
     
+}
+.containercrtextra i{
+    color: black;
+    margin-left: 25px;
 }
