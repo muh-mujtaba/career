@@ -624,11 +624,167 @@ padding: 5px;
 }
 
 .electronic{
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 .electronicleft{
-
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEBEF;
+    margin: 5px;
 }
 .electronicright{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEBEF;
+    margin: 5px;
+}
+.electronicleftcont{
+    width: 30%;
+    padding: 48px;
+}
+.electronicleftcont h1{
+
+}
+.electronicleftcont p{
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.electronicleftcont a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.electronicleftimg img{
+    width: 70%;
+}
+.electronicrightcont{
+    width: 50%;
+    padding: 26px;
+}
+.electronicrightcont p{
+    padding-bottom: 25px;
+    font-size: 15px;
+}
+.electronicrightcont a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.electronicrightimg img{
+    width: 100%;
+}
+
+
+.compare{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.compareleft{
+width: 20%;
+padding: 15px;
+}
+.compareleft h1{
     
 }
+.comparemiddle{
+width: 50%;
+}
+.compareright{
+width: 20%;
+padding: 15px;
+}
+.btn1{
+background-color: transparent;
+padding: 5px;
+border: none;
+}
+.btn2{
+background-color: #E93939;
+color: white;
+padding: 10px;
+font-size: 12px;
+border: none;
+margin-left: 5px;
+}
+
+
+.arrival{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.arrivalleft{
+width: 18%;
+background-color: #E93939;
+padding-top: 65px;
+padding-left: 25px;
+height: 28vh;
+}
+.arrivalleft h1{
+    color: white;
+}
+.arrivalleft p{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.arrivalleft a{
+text-decoration: none;
+color: white;
+border: 1px solid white;
+font-size: 12px;
+padding: 5px;
+}
+.arrivalright{
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.arrivalrightcont{
+    width: 25%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+background-color: #F3F3F3;
+margin: 15px;
+}
+.arrivalrightcont img{
+    width: 60%;
+}
+.arrivalrightcontdata{
+padding: 20px;
+background-color: white;
+}
+.arrivalrightcontdata h2{
+font-size: 18px;
+}
+.arrivalrightcontdata i{
+color: #DCAA31;
+}
+.arrivalrightcontrate{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.arrivalrightcontrate h2{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
