@@ -477,6 +477,14 @@ padding: 5px;
     justify-content: space-around;
     align-items: center;
 }
+.containeris i{
+    width: 20%;
+    padding: 15px;
+}
+.containerisdata{
+    width: 70%;
+    padding: 15px;
+}
 .containerfsa p{
     font-size: 15px;
     font-weight: bolder;
@@ -918,9 +926,10 @@ border-radius: 2px;
 
 
 .footermid{
-display: flex;
-background-color: black;
-padding: 35px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    padding: 35px;
 }
 .footermidl{
 width: 40%;
@@ -988,6 +997,7 @@ width: 20%;
 
 
 .footerlast{
+    display: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -1009,6 +1019,7 @@ padding: 10px;
     color: white; 
 }
 .copyright{
+    width: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -1022,8 +1033,157 @@ background-color: black;
 
 
 
+.main_footer{
+overflow: hidden;
+}
+.main_container{
+    overflow: hidden;
+}
+.head_container{
+    overflow: hidden;
+}
+.main_head{
+    overflow: hidden;
+}
 
 
+
+
+
+@media screen and (max-width: 900px){
+.container{
+
+}
+.lcon{
+margin-left: 0px;
+}
+.rcon{
+
+}
+.containerlogo{
+
+}
+.sublogo{
+
+}
+
+}
+@media screen and (max-width: 700px){
+    .container{
+    
+    }
+    .lcon{
+    margin-left: 0px;
+    }
+    .rcon{
+    
+    }
+    .containerlogo{
+    
+    }
+    .sublogo{
+    
+    }
+    .containeris{
+        width: 100%;
+    }
+    .containeris i{
+        display: none;
+    }
+ 
+}
+
+@media screen and (max-width: 660px){
+    .container{
+    display: flex;
+    justify-content: center;
+    }
+    .lcon{
+    margin-left: 0px;
+    width: 35%;
+    }
+    .rcon{
+    width: 55%;
+    }
+    .rcon img{
+        width: 70%;
+    }
+    .containerlogo{
+    
+    }
+    .sublogo{
+    display: none;
+    }
+    
+    }
+
+
+    @media screen and (max-width: 540px){
+        .container{
+        display: flex;
+        justify-content: center;
+        }
+        .lcon{
+        margin-left: 0px;
+        width: 30%;
+        }
+        .lcon p{
+            padding: 2px;
+        }
+        .lcon h1{
+            padding: 2px;
+        }
+        .lcon a{
+            padding: 4px;
+        }
+        .rcon{
+        width: 50%;
+        }
+        .rcon img{
+            width: 80%;
+        }
+        .containerlogo{
+        
+        }
+        .sublogo{
+        
+        }
+        
+        }
+
+        @media screen and (max-width: 450px){
+            .container{
+            display: flex;
+            justify-content: center;
+            }
+            .lcon{
+            margin-left: 0px;
+            width: 70%;
+            }
+            .lcon p{
+                padding: 2px;
+            }
+            .lcon h1{
+                padding: 2px;
+            }
+            .lcon a{
+                padding: 4px;
+            }
+            .rcon{
+            /* width: 50%; */
+            display: none;
+            }
+            .rcon img{
+                /* width: 80%; */   
+            }
+            .containerlogo{
+            
+            }
+            .sublogo{
+            
+            }
+            
+            }
 
 
 
