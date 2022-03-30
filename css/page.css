@@ -1118,7 +1118,7 @@ margin-left: 0px;
     }
 
 
-    @media screen and (max-width: 540px){
+    /* @media screen and (max-width: 540px){
         .container{
         display: flex;
         justify-content: center;
@@ -1149,7 +1149,7 @@ margin-left: 0px;
         
         }
         
-        }
+        } */
 
         @media screen and (max-width: 450px){
             .container{
