@@ -1114,6 +1114,12 @@ margin-left: 0px;
     .sublogo{
     display: none;
     }
+    .containerissue{
+        flex-wrap: wrap;
+    }
+    .containeris{
+        width: 40%;
+    }
     
     }
 
@@ -1149,19 +1155,7 @@ margin-left: 0px;
         
         }
 
-        .containerissue{
-            display: flex;
-            justify-content: center;
-            /* align-items: center; */
-            flex-direction: row;
-        }
-        .containeris{
-            width: 50%;
-        }
-
-
-
-
+    
 
 
         
