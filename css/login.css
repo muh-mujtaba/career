@@ -1,0 +1,21 @@
+.login_head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login_head p{
+    font-size: 35px;
+    font-weight: bold;
+}
+.login_data{
+    display: flex;
+    justify-content: center;
+}
+.login_data form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.login_data form input{
+
+}
