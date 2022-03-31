@@ -1148,6 +1148,22 @@ margin-left: 0px;
         .sublogo{
         
         }
+
+        .containerissue{
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+            flex-direction: row;
+        }
+        .containeris{
+            width: 50%;
+        }
+
+
+
+
+
+
         
         }
 
