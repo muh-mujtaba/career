@@ -1,0 +1,29 @@
+
+
+
+.product{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 35px;
+}
+.left_product{
+width: 50%;
+}
+.left_product img{
+    width: 60%;
+}
+.right_product{
+width: 50%;
+}
+#head{
+font-size: 22px;
+font-weight: bold;
+}
+#price{
+font-size: 20px;
+font-weight: bold;
+}
+#product_btn{
+    margin-top: 15px;
+}

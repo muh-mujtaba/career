@@ -8,14 +8,68 @@
     font-weight: bold;
 }
 .login_data{
+    margin-top: 25px;
     display: flex;
     justify-content: center;
 }
 .login_data form{
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 .login_data form input{
+    width: 20%;
+    height: 5vh;
+    font-size: 16px;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.login_data form button{
+margin-top: 5px;
+width: 20%;
+padding: 5px;
+font-size: medium;
+}
+.login_data form a{
+    margin-top: 5px;
+    text-decoration: none;
+}
 
+.login_signup{
+    margin-top: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.login_signup button{
+padding: 5px;
+}
+
+@media screen and (max-width: 900px){
+    .login_data form input{
+        width: 30%;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .login_data form input{
+        width: 40%;
+        height: 5vh;
+    }
+}
+@media screen and (max-width: 450px){
+    .login_data form input{
+        width: 50%;
+        height: 5vh;
+    }
+}
+@media screen and (max-width: 350px){
+    .login_data form input{
+        width: 70%;
+        height: 5vh;
+    }
 }
