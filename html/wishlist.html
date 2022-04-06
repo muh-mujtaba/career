@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;500;600;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
-    <title>Contact Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Wishlist</title>
 </head>
 <body>
     <section>
@@ -99,98 +99,144 @@
         </div>
     </div>
     </section>
+    <section class="wishlist">
 
-    <section class="contact_us">
-
-        <div class="keepin">
-            <h1>Contact us</h1>
-            <p>keep in touch with us</p>
+        <div class="whishlist_head">
+            <p id="wishlist">Wishlist</p>
+            <p id="shop">Shop</p>
         </div>
+            <div class="wishlist_data">
 
-        <div class="contact_container">
+                <table>
+                    <thead class="thead">
+                        <tr>
+                            <th id="head_product">Product</th>
+                            <th id="head_price">Price</th>
+                            <th id="head_stock">Stock Status</th>
+                        </tr>
+                    </thead>
 
-            
-                <div class="left_contact">
-                    <h2>Contact Information</h2>
-                    <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto quia iste ullam quos a. Illum.</p>
-                    <div class="left_contact_botom">
+                    <tbody class="tbody">
+                        <tr>
+                            <td>
+                                <div class="whislist_product">
+                                    
+                                    
+                                    <figure>
+                                        <a href="#">
+                                            <img src="../gallery/shoes2.png" alt="">
+                                        </a>
+                                    </figure>
+                                    
+
+                                    <h3>
+                                        <a href="#">Blue utility pinafore denim dress</a>
+                                    </h3>
+
+                                </div>
+                            </td>
+
+                            <td class="price"><p>$76.00</p></td>
+
+                            <td class="stock"><p id="in_stock">In stock</p> </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">option 1</option>
+                                    <option value="">option 2</option>
+                                    <option value="">option 3</option>
+                                    </select>
+                            </td>
+
+                            <td class="close"><i class="material-icons">
+                                close
+                            </i></td>
+
+                        </tr>
                         
-                            <div class="left_contact_office">
-                                <h3>The Office</h3>
+                        <tr>
+                            <td>
+                                <div class="whislist_product">
+                                    
+                                    
+                                    <figure>
+                                        <a href="#">
+                                            <img src="../gallery/shoes2.png" alt="">
+                                        </a>
+                                    </figure>
+                                    
 
-                                <ul>
-                                    <li>
-                                        <i class="icon-map-marker"></i>
-                                        Career Institute Jinnah Colony Faisalabad
-                                    </li>
-                                    <li>
-                                        <i class="icon-phone"></i>
-                                        <a href="#">+92 423 567</a>
-                                    </li>
-                                    <li>
-                                        <i class="icon-envelope"></i>
-                                        <a href="#">info@career.com</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        
+                                    <h3>
+                                        <a href="#">Blue utility pinafore denim dress</a>
+                                    </h3>
 
-                        
-                            <div class="left_contact_office">
-                                <h3>The Office</h3>
+                                </div>
+                            </td>
 
-                                <ul>
-                                    <li>
-                                        <i class="icon-clock-o"></i>
-                                        <span >Monday-Saturday</span> <br>11am-7pm ET
-                                    </li>
-                                    <li>
-                                        <i class="icon-calendar"></i>
-                                        <span>Sunday</span> <br>11am-6pm ET
-                                    </li>
-                                </ul>
-                            </div>
-                        
-                    </div>
+                            <td class="price"><p>$76.00</p></td>
+
+                            <td class="stock"><p id="in_stock">In stock</p> </td>
+
+                            <td class="btn">
+                                <button>Add to Cart</button>
+                            </td>
+
+                            <td class="close"><i class="material-icons">
+                                close
+                            </i></td>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <div class="whislist_product">
+                                    
+                                    <figure>
+                                        <a href="#">
+                                            <img src="../gallery/shoes2.png" alt="">
+                                        </a>
+                                    </figure>
+                                    
+
+                                    <h3>
+                                        <a href="#">pink saddle lock front chain bag</a>
+                                    </h3>
+
+                                </div>
+                            </td>
+
+                            <td class="price"><p>$52.00</p></td>
+
+                            <td class="stock"><p id="out_stock">out of stock</p> </td>
+
+                            <td class="btn">
+                                <button>Add to Cart</button>
+                            </td>
+
+                            <td class="close"><i class="material-icons">
+                                close
+                            </i></td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+                
+
+            </div>
+
+            <div>
+                <div class="social_media">
+                    <label>Share on:</label>
+                    <a href=""><img src="../gallery/facebook-brands.svg" alt=""></a>
+                    <a href=""><img src="../gallery/twitter-square-brands.svg" alt=""></a>
+                    <a href=""><img src="../gallery/instagram-brands.svg" alt=""></a>
                 </div>
-
-                <div class="right_contact">
-                    <h2>Got Any Questions?</h2>
-                    <p>Use the form below to get in touch with the sales team</p>
-
-                    <form action="#">
-                        <div class="right_contact_top">
-                            <div class="right_contact_top_input">
-                                <input type="text"   placeholder="Name">
-                            </div>
-
-                            <div class="right_contact_top_input">
-                                <input type="email" id="cemail" placeholder="Email" >
-                            </div>
-                        </div>
-
-                       
-                            <div class="right_contact_top_input">
-                                <input type="tel" id="cphone" placeholder="Phone">
-                            </div>
-
-                           
-                        
-
-                        <textarea id="cmessage" placeholder="Message" rows="10" cols="50"></textarea>
-
-                        <button type="submit">
-                            <span>SUBMIT</span>
-                            <i class="icon-long-arrow-right"></i>
-                        </button>
-                    </form>
-                </div>
-            
-
-        </div>
+            </div>
+ 
 
     </section>
-
     <section>
         <div class="main_footer">
     

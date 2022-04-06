@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500;600&display=swap" 
-rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;500;600;700&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="icon" type="image/x-icon" href="../images/download.png">
@@ -34,14 +33,9 @@ rel="stylesheet">
                             <option value=""></option>
                         </select>
                     </li>
-                    <p>|</p>
-                    <li>Blog</li>
-                    <li>Contact Us</li>
-                    <li>My Account</li>
-                    <li id="account">
-                        <i id="act" class="material-icons">account_circle</i>
-                    Sign/Register
-                </li>
+
+                    <li> <a href="../html/login.html" target="_blank">SignIn</a> </li>
+                    <li> <a href=""></a> Register</a> </li>
                 </ul>
             </div>
         </div>
@@ -52,7 +46,7 @@ rel="stylesheet">
             </div>
             <div class="mmiddle">
 
-                <select name="" id="">
+                <!-- <select name="" id="">
                     <option>All Categories</option>
                     <option></option>
                     <option></option>
@@ -64,25 +58,22 @@ rel="stylesheet">
                     <i class="material-icons">
                         search
                     </i>
+                </div> -->
+                <div class="input">
+                    <input type="text" placeholder="Search in...">
+                    <i class="material-icons">
+                        search
+                    </i>
                 </div>
                 
             </div>
             <div class="mright">
                 <ul>
-                    <i id="act" class="material-icons">
-                        phone
-                    </i>
-
-                    <li>
-                        Call us at:
-                        <p style="font-size: 15px;">+92239742253</p>
-                    </li>
-                    <p>|</p>
                     <li id="act1">
                         <i class="material-icons">
                             favorite_border
-                        </i>
-                        Wishlist</li>
+                        </i><a href="../html/wishlist.html" target="_blank">
+                        Wishlist</a></li>
                     <li id="act1">
                         <i class="material-icons">
                             compare_arrows
@@ -104,7 +95,7 @@ rel="stylesheet">
                     menu
                 </i>
 
-                <!-- <select name="" id="">
+                <select name="" id="">
                     <option value="">Browse Categories</option>
                     <option value="" id="val1">Fashion</option>
                     <option value="">Home & Garden</option>
@@ -117,73 +108,12 @@ rel="stylesheet">
                     <option value="">Smart Phones</option>
                     <option value="">Cameras</option>
                     <option value="">Accessories </option>
-                </select> -->
-                <ul class="menu">
-                    <li><a style="color: white;" href="">Browse Categories 
-                         <i class="material-icons">
-                            expand_more
-                        </i>
-                    </a>
-                    <ul class="submenu">
-                        <li style="margin-left: 30px;" class="link1"><a href="">Fashion
-
-                            <i class="material-icons">
-                                navigate_next
-                            </i>
-
-                        </a><hr>
-                        <ul class="subsubmenu1">
-                            <li>sub Fashion</li><hr>
-                            <li>sub Fashion</li><hr>
-                        </ul>
-                        </li>
-                        <li style="margin-left: 30px;" class="link2"><a href="">Home & Garden
-
-                            <i class="material-icons">
-                                navigate_next
-                            </i>
-                        </a><hr>
-                            <ul class="subsubmenu2">
-                                <li><a>sub Home & Garden</a></li><hr>
-                                <li>sub Home & Garden</a></li><hr>
-                            </ul>
-                        </li>
-                        <li style="margin-left: 30px;" class="link3"><a href="">Electronics
-                            <i class="material-icons">
-                                navigate_next
-                            </i>
-                        </a><hr>
-                            <ul class="subsubmenu3">
-                                <li><a>sub Electronics</a></li><hr>
-                                <li><a>sub Electronics</a></li><hr>
-                            </ul>
-                        </li>
-                        <li style="margin-left: 30px;" class="link4"><a href="">Furniture
-                            <i class="material-icons">
-                                navigate_next
-                            </i>
-                        </a><hr>
-                            <ul class="subsubmenu4">
-                                <li><a>sub Furniture</a></li><hr>
-                                <li><a>sub Furniture</a></li><hr>
-                            </ul>
-                        </li>
-                        <li style="margin-left: 30px;"><a href="">Health & Beauty</a><hr></li>
-                        <li style="margin-left: 30px;"><a href="">Gift</a><hr></li>
-                        <li style="margin-left: 30px;"><a href="">Games & Toys</a><hr></li>
-                        <li style="margin-left: 30px;"><a href="">Cooking & Food</a><hr></li>
-                        <li style="margin-left: 30px;"><a href="">Smart Phones</a><hr></li>
-                        <li style="margin-left: 30px;"><a href="">Cameras</a><hr></li>
-                        <li style="margin-left: 30px;"><a href="">Accessories</a><hr></li>
-                    </ul>
-                    </li>
-                      
-                </ul>
+                </select>
 
             </div>
             <div class="emiddle">
                 <ul>
-                    <li>Home</li>
+                    <li><a>Home</a></li>
                     <li>
                         <select name="" id="">
                             <option value="">Shop</option>
@@ -194,13 +124,8 @@ rel="stylesheet">
                         <option value="">Vendor</option>
                         <option value=""></option>
                     </select></li>
-                    <li>
-                        <select name="" id="">
-                            <option value="">Blog</option>
-                            <option value=""></option>
-                        </select>
-                    </li>
-                    <li>About Us</li>
+                    <li><a href="../html/contact.html" target="_blank">Contact Us</a></li>
+                    <li> <a href=""> About Us </a></li>
                 </ul>
             </div>
             <div class="eright">
@@ -230,7 +155,7 @@ rel="stylesheet">
             <h1>Nike Shoes</h1>
             <p>Recommended</p>
             <p>Free Shipping on all oders over $99.00</p>
-            <a href="">SHOP NOW</a>
+            <a href="../html/product.html" target="_blank">SHOP NOW</a>
         </div>
         <div class="rcon">
             <img src="../gallery/shoes.png" alt="">
@@ -304,7 +229,7 @@ rel="stylesheet">
             <div class="containerfsa">
                 <h1>Fashion's</h1>
                 <p>STARTING AT <span style="color: #E93939;">$27</span></p>
-                <a href="">SHOP NOW</a>
+                <a href="../html/product.html" target="_blank">SHOP NOW</a>
             </div>
             <img src="../gallery/girl.png" alt="">
         </div>
@@ -312,7 +237,7 @@ rel="stylesheet">
             <div class="containerfsa">
                 <h1>Foot Wears</h1>
                 <p>STARTING AT <span style="color: #E93939;">$20</span></p>
-                <a href="">SHOP NOW</a>
+                <a href="../html/product.html" target="_blank">SHOP NOW</a>
             </div>
             <img src="../gallery/shoes2.png" alt="">
         </div>
@@ -320,7 +245,7 @@ rel="stylesheet">
             <div class="containerfsa">
                 <h1>For Men's</h1>
                 <p>STARTING AT <span style="color: #E93939;">$29</span></p>
-                <a href="">SHOP NOW</a>
+                <a href="../html/product.html" target="_blank">SHOP NOW</a>
             </div>
             <img src="../gallery/boy.png" alt="">
         </div>
@@ -438,15 +363,6 @@ rel="stylesheet">
     <div class="selling">
         <div class="sellingdata">
             <div class="sellingdatacontimg">
-            <img src="../gallery/watch.png" alt="">
-        </div>
-            <div class="sellingdatacont">
-                <p>Lorem, ipsum.</p>
-                <h3>$15.40</h3>
-            </div>
-        </div>
-        <div class="sellingdata">
-            <div class="sellingdatacontimg">
                 <img src="../gallery/watch.png" alt="">
             </div>
             <div class="sellingdatacont">
@@ -485,15 +401,7 @@ rel="stylesheet">
 
     
     <div class="selling">
-        <div class="sellingdata">
-            <div class="sellingdatacontimg">
-            <img src="../gallery/watch.png" alt="">
-        </div>
-            <div class="sellingdatacont">
-                <p>Lorem, ipsum.</p>
-                <h3>$15.40</h3>
-            </div>
-        </div>
+        
         <div class="sellingdata">
             <div class="sellingdatacontimg">
                 <img src="../gallery/watch.png" alt="">
@@ -643,6 +551,13 @@ rel="stylesheet">
         <div class="pd4">
             <h3>Latest Products</h3>
         </div>
+    </div>
+    <!-- used in reponsive -->
+    <div class="responsive_heading">
+        <p>All Products</p>
+    </div>
+    <div class="responsive_heading_hr">
+        <hr>
     </div>
 
     <div class="items">
@@ -808,34 +723,6 @@ rel="stylesheet">
 
 <section>
     <div class="main_footer">
-    <div class="footertop">
-        <div class="lfootertop">
-            <h4>Download App</h4>
-            <p>Nearstore is now available on <br> App Store & Google Play. <br>Get it now.</p>
-            <div class="link">
-                <div class="logo">
-                    <img src="../gallery/apple-brands.svg" alt="">
-                </div>
-                <div class="txt">
-                    <p>Download from <br>APP STORE</p>
-                </div>
-            </div>
-            <div class="link">
-                <div class="logo">
-                    <img src="../gallery/google-play-brands.svg" alt="">
-                </div>
-                <div class="txt">
-                    <p>Download from <br>GOOGLE PLAY</p>
-                </div>
-            </div>
-        </div>
-        <div class="rfootertop">
-            <p>Sign upto our newsletter <br>Join 1000,00+ subscribers and get a new discount coupon <br>every week <br>You can update your preferences and unscribe at any time.</p>
-            <input type="email" name="" id="" placeholder="Email Address">
-            <a href="" class="robot"><input type="checkbox">I'm not a robot</a>
-            <a href="">Sign me up with a weekly news letter</a>
-        </div>
-    </div>
 
 <hr>
 
@@ -877,17 +764,17 @@ rel="stylesheet">
 <hr>
     <div class="footerlast">
         <ul>
-            <li>ABOUT US</li>
+            <li><a href="">ABOUT US</a></li>
             <p>|</p>
-            <li>CUSTOMER</li>
+            <li><a href="">CUSTOMER</a></li>
             <p>|</p>
-            <li>SERVICE</li>
+            <li><a href="">SERVICE</a></li>
             <p>|</p>
-            <li>PRIVACY POLICY</li>
+            <li><a href="">PRIVACY POLICY</a></li>
             <p>|</p>
-            <li>SITE MAP</li>
+            <li><a href="">SITE MAP</a></li>
             <p>|</p>
-            <li>CONTACT US</li>
+            <li><a href="../html/contact.html">CONTACT US</a></li>
         </ul>
     </div>
 

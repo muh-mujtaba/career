@@ -1,0 +1,205 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+:root{
+    --redcolor: #E93939;
+    --greycolor: #F3F3F3;
+    --lightgray: #EAEBEF;
+    --darkgray: #DEDAD9;
+    --darkestgray: #888888;
+}
+
+.whishlist_head{
+    background-color: var(--lightgray);
+margin-top: 55px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+#wishlist{
+font-size: 45px;
+margin-bottom: 0px;
+}
+#shop{
+    margin-top: 0px;
+font-size: 22px;
+color: var(--darkestgray);
+}
+.wishlist_data{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+thead tr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+thead tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+thead tr th{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#head_product{
+    
+}
+#head_price{
+padding-left: 360px;
+}
+#head_stock{
+    padding-right: 130px;
+}
+tbody tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whislist_product{
+    display: flex;
+    justify-content: flex-start;
+}
+.whislist_product a{
+    width: 30%;
+}
+.whislist_product h3{
+    padding-top: 15px;
+    width: 70%;
+}
+.whislist_product figure{
+    margin: 0px;
+    padding: 0px;
+}
+.whislist_product figure a img{
+    width:  70%;
+}
+/* .whislist_product h3{
+    padding: 5px;
+} */
+.whislist_product h3 a{
+    text-decoration: none;
+    color: black;
+}
+.price p{
+    font-size: 18px;
+}
+.stock{
+    padding-left:15px;
+    padding-right: 15px;
+}
+.stock p{
+    font-size: 18px;
+}
+.btn button{
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--redcolor);
+    cursor: pointer;
+}
+.btn button:hover{
+background-color: var(--redcolor);
+transition: 0.75s;
+color: white;
+}
+#in_stock{
+    color: var(--darkestgray);
+}
+#out_stock{
+color: var(--redcolor);
+}
+select{
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: transparent;
+    border: 1px solid;
+    border-color: var(--redcolor);
+    cursor: pointer;
+}
+select:hover{
+    background-color: var(--redcolor);
+transition: 0.75s;
+color: white;
+}
+.social_media{
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.social_media label{
+    font-size: 20px;
+}
+.social_media a{
+    margin-left: 10px;
+    width: 1.5%;
+    padding: 2px;
+}
+.social_media a img{
+width: 100%;
+}
+
+@media screen and (max-width: 990px){
+    .tbody tr{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        padding: 15px;
+    }
+    .thead{
+        display: none;
+    }
+    .whislist_product figure a img{
+        width: 60%;
+    }
+    /* .price{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    } */
+    .close{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+    .social_media a{
+        margin-left: 10px;
+        width: 2%;
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 800px){
+    .social_media a{
+        margin-left: 10px;
+        width: 3%;
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 520px){
+    .social_media a{
+        margin-left: 10px;
+        width: 4%;
+        padding: 2px;
+    }
+}
+@media screen and (max-width: 350px){
+    .social_media a{
+        margin-left: 10px;
+        width: 6%;
+        padding: 2px;
+    }
+}

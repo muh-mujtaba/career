@@ -3,7 +3,13 @@
     padding: 0;
     font-family: 'Mulish', sans-serif;
 }
-
+:root{
+    --redcolor: #E93939;
+    --greycolor: #F3F3F3;
+    --lightgray: #EAEBEF;
+    --darkgray: #DEDAD9;
+    --darkestgray: #888888;
+}
 
 /* start navigation-bar */
 
@@ -28,29 +34,27 @@ width: 50%;
 display: flex;
 justify-content: right;
 }
-.hright p{
-    padding-right: 7px;
-    padding-top: 5px;
-}
 .hright ul{
     display: flex;
 }
 .hright ul li{
 list-style: none;
 padding: 5px;
-margin-right: 5px;
 cursor: pointer;
 font-size: 14px;
 }
-#account{
-    display: flex;
-}
-#act{
-    margin-right: 6px;
-}
+
 .hright ul li select{
 border: none;
 cursor: pointer;
+}
+.hright ul li:hover{
+    color: var(--redcolor);
+    transition: 0.75s;
+}
+.hright ul li select:hover{
+    color: var(--redcolor);
+    transition: 0.75s;
 }
 
 
@@ -77,17 +81,17 @@ width: 50%;
     align-items: center;
     height: 10vh;
 }
-.mmiddle select{
+/* .mmiddle select{
     width: 20%;
     height: 4.5vh;
     border: solid;
     border-width: 1px;
     border-color: #E93939;
     padding: 5px;
-    /* border-radius: 5px; */
+    border-radius: 5px; 
     cursor: pointer;
     border-right: none;
-}
+} */
 .input{
     width: 50%;
     height: 4.2vh;
@@ -97,19 +101,24 @@ width: 50%;
     border: solid;
     border-width: 1px;
     border-color: #E93939;
-    border-left: none;
-}
-.input p{
-    margin-top: 2px;
-    padding: 1px;
+    height: 6vh;
+    margin-top: 11px;
 }
 .input input{
     width: 90%;
     padding: 5px;
     border: none;
+    /* height: 4vh; */
+    font-weight: 18px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .input i{
-    margin-top: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #act1{
     display: flex;
@@ -117,23 +126,6 @@ width: 50%;
     justify-content: center;
     align-items: center;
 }
-
-/* error */
-
-/* .mmiddle select input{
-    width: 30%;
-    
-    padding: 5px;
-} */
-/* #inp{
-    width: 50%;
-    border: solid;
-    border-width: 1px;
-    border-color: #E93939;
-    padding: 5px;
-    border-radius: 5px;
-} */
-
 .mright{
 width: 30%;
 display: flex;
@@ -148,11 +140,17 @@ justify-content: right;
     align-items: center;
 }
 .mright ul li{
-    list-style: none;
+list-style: none;
 padding: 5px;
-margin-right: 15px;
 font-size: 12px;
 cursor: pointer;
+}
+.mright ul li a{
+    text-decoration: none;
+    color: black;
+}
+.mright ul li:hover{
+
 }
 
 
@@ -165,18 +163,18 @@ cursor: pointer;
 background-color: black;
 display: flex;
 }
+
 .eleft{
-width: 21%;
+width: 30%;
 display: flex;
 justify-content: left;
 align-items: center;
 padding: 5px;
-margin-left: 10px;
-background-color: #E93939;
+background-color: var(--redcolor);
 }
-/* .eleft select{
+.eleft select{
 padding: 5px;
-background-color: #E93939;
+background-color: var(--redcolor);
 color: white;
 border: none;
 font-size: 18px;
@@ -187,118 +185,6 @@ cursor: pointer;
     background-color: white;
     color: black;
     font-size: 16px;
-    margin-top: 3px;
-    margin-bottom: 3px;
-} */
-.menu{
-
-}
-.menu li{
-list-style: none;
-cursor: pointer;
-}
-.menu li a{
-text-decoration: none;
-color: black;
-display: flex;
-justify-content: space-between;
-}
-.submenu{
-    width: 21%;
-    position: absolute;
-    background-color: white;
-    bottom: 180px;
-    left: 9px;
-    font-size: 18px;
-    display: none;
-}
-.menu li:hover .submenu{
-    display: block;
-}
-.subsubmenu li{
-    padding: 5px;
-    
-}
-.subsubmenu li a{
-    color: black;
-    
-}
-
-
-.subsubmenu1{
-    position: absolute;
-    background-color: white;
-    bottom: 210px;
-    left: 268px;
-    width: 42%;
-    font-size: 18px;
-    display: none;
-}
-.link1:hover .subsubmenu1{
-    display: block;
-}
-.subsubmenu1 li{
-    padding: 5px;
-}
-.subsubmenu1 li a{
-    color: black;
-}
-
-.subsubmenu2{
-    position: absolute;
-    background-color: white;
-    bottom: 185px;
-    left: 268px;
-    width: 71%;
-    font-size: 18px;
-    display: none;
-}
-.link2:hover .subsubmenu2{
-    display: block;
-}
-.subsubmenu2 li{
-    padding: 5px;
-}
-.subsubmenu1 li a{
-    color: black;
-}
-
-.subsubmenu3{
-    position: absolute;
-    background-color: white;
-    bottom: 159px;
-    left: 269px;
-    width: 52%;
-    font-size: 18px;
-    display: none;
-}
-.link3:hover .subsubmenu3{
-    display: block;
-}
-.subsubmenu3 li{
-    padding: 5px;
-}
-.subsubmenu3 li a{
-    color: black;
-}
-
-.subsubmenu4{
-    position: absolute;
-    background-color: white;
-    bottom: 135px;
-    left: 269px;
-    width: 49%;
-    font-size: 18px;
-    display: none;
-}
-.link4:hover .subsubmenu4{
-    display: block;
-}
-.subsubmenu4 li{
-    padding: 5px;
-}
-.subsubmenu4 li a{
-    color: black;
 }
 
 
@@ -307,7 +193,7 @@ justify-content: space-between;
 
 
 .emiddle{
-width: 60%;
+width: 50%;
 display: flex;
 align-items: center;
 margin-left:15px ;
@@ -324,6 +210,15 @@ font-size: 16px;
 padding: 5px;
 cursor: pointer;
 }
+.emiddle ul li a{
+    text-decoration: none;
+    color: white;
+}
+.emiddle ul li a:hover{
+    color: var(--redcolor);
+    transition: 0.75s;
+}
+
 .emiddle ul li select{
     padding: 5px;
     background-color: black;
@@ -331,6 +226,10 @@ cursor: pointer;
     border: none;
     font-size: 16px;
     cursor: pointer;
+}
+.emiddle ul li select:hover{
+    color: var(--redcolor);
+    transition: 0.75s;
 }
 .emiddle ul li select option{
 
@@ -397,14 +296,19 @@ padding: 5px;
     color: black;
     border: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: var(--redcolor);
     padding: 10px;
     font-size: 12px;
     margin-top: 5px;  
-    position: relative;
-    overflow: hidden;
+    /* position: relative;
+    overflow: hidden; */
 }
-.lcon a::before{
+.lcon a:hover{
+    background-color: var(--redcolor);
+    color: white;
+    transition: 0.75s;
+}
+/* .lcon a::before{
     content:"";
     width: 20%;
     height: 90px;
@@ -422,7 +326,7 @@ padding: 5px;
     position: absolute;
     top: -30px;
     left: 110px;
-}
+} */
 .rcon{
     width: 50%;
     display: flex;
@@ -491,11 +395,18 @@ padding: 5px;
     margin-bottom: 15px;
 }
 .containerfsa a{
-    padding-top: 15px;
+    padding: 5px;
     text-decoration: none;
     color: black;
     font-size: 12px;
     font-weight: bold;
+    border: 1px solid;
+    border-color: var(--redcolor);
+}
+.containerfsa a:hover{
+    background-color: var(--redcolor);
+    transition: 0.75s;
+    color: white;
 }
 
 
@@ -595,11 +506,16 @@ padding: 5px;
     text-decoration: none;
     border: solid;
     border-width: 1px;
-    border-color: black;
+    border-color: var(--redcolor);
     color: black;
     padding: 5px;
     font-size: 13px;
     
+}
+.containercrtextra a:hover{
+    background-color: var(--redcolor);
+    color: white;
+    transition: 0.75s;
 }
 .containercrtextra i{
     color: black;
@@ -613,8 +529,8 @@ padding: 5px;
     align-items: center;
 }
 .sellingdata{
-    width: 15%;
-    margin: 10px;
+    width: 25%;
+    margin-bottom: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -732,26 +648,31 @@ justify-content: center;
 align-items: center;
 }
 .arrivalleft{
-width: 18%;
+width: 20%;
 background-color: #E93939;
-padding-top: 65px;
-padding-left: 25px;
-height: 28vh;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+display: none;
+/* padding-top: 65px;
+padding-left: 25px; */
+/* height: 28vh; */
 }
 .arrivalleft h1{
     color: white;
 }
 .arrivalleft p{
     color: white;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-top: 15px;
+    margin-bottom: 15px; */
 }
 .arrivalleft a{
 text-decoration: none;
 color: white;
 border: 1px solid white;
 font-size: 12px;
-padding: 5px;
+/* padding: 5px; */
 }
 .arrivalright{
 width: 80%;
@@ -862,75 +783,14 @@ display: flex;
 justify-content: center;
 align-items: flex-start;
 }
-.lfootertop{
-width: 50%;
-padding: 25px;
-}
-.lfootertop h4{
-color: white;
-}
-.lfootertop p{
-    color: white;
-}
-.link{
-width: 30%;
-border: 1px solid #DEDAD9;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 5px;
-margin: 5px;
-cursor: pointer;
-}
-.logo{
-width: 30%;
-}
-.logo img{
-    width: 50%;
-}
-.txt{
-width: 50%;
-font-size: 12px;
-}
-.rfootertop{
-width: 50%;
-padding: 25px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-.rfootertop p{
-color: white;
-font-size: 14px;
-margin-bottom: 5px;
-}
-.rfootertop input{
-width: 50%;
-padding: 5px;
-border: transparent;
-}
-.robot input{
-width: 10%;
-}
-.rfootertop a{
-    margin-top: 10px;
-    width: 55%;
-    padding: 5px;
-color: rgb(54, 54, 54);
-background-color: #F1FFFD;
-text-decoration: none;
-border: 1px solid transparent;
-font-size: 13px;
-border-radius: 2px;
-}
-
 
 
 .footermid{
     width: 100%;
     display: flex;
-    background-color: black;
+    background-color: var(--redcolor);
     padding: 35px;
+    margin-top: 15px;
 }
 .footermidl{
 width: 40%;
@@ -1015,6 +875,14 @@ padding: 10px;
     color: white;
     cursor: pointer;
 }
+.footerlast ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footerlast ul li a:hover{
+    color: var(--redcolor);
+    transition: 0.75s;
+}
 .footerlast ul p{
     display: inline-block;
     color: white; 
@@ -1052,6 +920,21 @@ overflow: hidden;
 
 
 @media screen and (max-width: 900px){
+    .mmiddle{
+        display: none;
+    }
+    .middle{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mleft{
+        width: 50%;
+    }
+    
+    .mright{
+        width: 50%;
+    }
 .container{
 
 }
@@ -1062,7 +945,7 @@ margin-left: 0px;
 
 }
 .containerlogo{
-
+top: 544px;
 }
 .sublogo{
 
@@ -1076,7 +959,61 @@ margin-left: 0px;
 }
 
 }
+
+@media screen and (max-width: 935px){
+    
+}
+
+@media screen and (max-width: 870px){
+
+    .emiddle{
+        display: none;
+    }
+    
+.eright {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+.containerlogo{
+    top: 524px;
+    }
+}
+@media screen and (max-width: 800px){
+    .selling{
+        flex-wrap: wrap;
+    }
+    .sellingdata{
+        width: 50%;
+    }
+.electronic{
+    flex-wrap: wrap;
+}
+    .electronicleft{
+width: 100%;
+    }
+    .electronicright{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 720px){
+    .containerlogo{
+        display: none;
+        }
+        
+}
 @media screen and (max-width: 700px){
+    
+    .eleft select{
+        display: none;
+    }
+    .eleft{
+        width: 4%;
+    } 
+    .eright{
+        width: 96%;
+    }
     .container{
     
     }
@@ -1137,8 +1074,13 @@ margin-left: 0px;
     }
     
     
+    
     }
-
+    @media screen and (max-width: 600px){
+        .mleft img{
+            width: 70%;
+        }
+    }
 
     @media screen and (max-width: 540px){
         .container{
@@ -1177,14 +1119,85 @@ margin-left: 0px;
         .containerfs{
             width: 100%;
         }
-
+        
     
 
 
         
         }
 
+        @media screen and (max-width: 500px){
+            .footermid{
+                flex-wrap: wrap;
+            }
+            .footermidl{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .footermidltop {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .footermidltop p{
+                width: 80%;
+            }
+            .footermidlbt{
+                display: none;
+            }
+            .footermidm{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .footermidr{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .selling{
+                width: 100% !important;
+                flex-wrap: wrap;
+            }
+            .sellingdata{
+                width: 100%;
+            }
+            .hleft p{
+                font-size: 16px;
+            }
+            .hright ul li{
+                font-size: 12px;
+            }
+        }
+        @media screen and (max-width: 475px){
+            .eleft{
+                width: 6%;
+            }
+            .eright{
+                width: 94%;
+            }
+        }
+
         @media screen and (max-width: 450px){
+            .hleft p{
+                font-size: 12px;
+            }
+            .hright ul li select{
+                font-size: 12px;
+            }
+            .hright ul li{
+                font-size: 10px;
+            }
             .container{
             display: flex;
             justify-content: center;
@@ -1226,6 +1239,12 @@ margin-left: 0px;
                 display: none;
             }
             
+            }
+
+            @media screen and (max-width: 400px){
+                .mleft img{
+                    width: 80%;
+                }
             }
 
 
