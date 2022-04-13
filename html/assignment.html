@@ -1,54 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assignment</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/pen-copy.png">
+
+    <title>Practical Work</title>
+  </head>
+  <body>
     <style>
-        .personal{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: rgb(94, 91, 91);
-            border-radius: 2px;
-        }
-        .personal p{
-            font-size: 22px;
-            font-weight: bold;
-            color: white;
-        }
-        .links{
-            margin-top: 5px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: rgb(221, 217, 217);
-        }
-        .links h2{
-            margin-top: 5px;
-            border-radius: 2px;
-        }
-        .links a{
-            margin: 5px;
-            padding: 5px;
-            font-size: 16px;
-            text-decoration: none;
-            color: white;
-            background-color: rgb(114, 112, 112);
-            border: 1px solid black;
-            border-radius: 3px;
-        }
+      .personal {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: rgb(94, 91, 91);
+        border-radius: 2px;
+      }
+      .personal p {
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+      }
+      .links {
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        background-color: rgb(221, 217, 217);
+      }
+      .left {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .left a{
+          text-decoration: none;
+          color: white;
+          background-color: gray;
+          padding: 5px;
+          border-radius: 5px;
+          margin: 5px;
+      }
+      .middle{
+          width: 30%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+        flex-direction: column;
+      }
+      .middle a{
+        text-decoration: none;
+        color: white;
+        background-color: gray;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+      .right {
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .right a{
+        text-decoration: none;
+        color: white;
+        background-color: gray;
+        padding: 5px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+      h2 {
+          font-size: 18px;
+        margin: 5px 0px;
+        border-radius: 2px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+         color: white;
+         padding: 5px;
+      }
     </style>
     <div class="personal">
-        <p>Name: Muhammad Mujtaba</p>
-        <p>Batch: CIT(Morning)</p>
+      <p>Name: Muhammad Mujtaba</p>
+      <p>Batch: CIT(Morning)</p>
     </div>
+
+    <h2>Links of Assignment</h2>
+
     <div class="links">
-        <h2>Link of Assignments</h2>
+      <div class="left">
+        <h3>Simple Working Page</h3>
         <a href="../html/registration_form.html" target="_blank">Registration page</a>
         <a href="../html/blog.html" target="_blank">Blog Home Page</a>
         <a href="../html/blog1.html" target="_blank">Blogs</a>
@@ -56,11 +105,25 @@
         <a href="../html/table.html" target="_blank">Table</a>
         <a href="../html/website_dev.html" target="_blank">Paragraph Tags</a>
         <a href="../html/navbar.html" target="_blank">Navbar</a>
-        <a href="../html/lecture-22-3-2022.html" target="_blank">Background property</a>
+        <a href="../html/lecture-22-3-2022.html" target="_blank">Background property</a
+        >
         <a href="../html/lecture-24-3-2022.html" target="_blank">Transitions</a>
-        <a href="../html/lecture-25-3-2022.html" target="_blank">Transitions second</a>
-        <a href="../html/page.html" target="_blank">E-commerce page</a>
+        <a href="../html/lecture-25-3-2022.html" target="_blank">Transitions second</a
+        >
+      </div>
+
+      <div class="middle">
+        <h3>Responsive Template</h3>
+        <a href="../html/page.html" target="_blank">E-commerce template</a>
+        <a href="https://muh-mujtaba.github.io/education/index" target="_blank">Educational template</a>
+      </div>
+
+      <div class="right">
+        <h3>Bootstrap page</h3>
+        <a href="#" target="_blank">Null</a>
+        <a href="#" target="_blank">Null</a>
+      </div>
 
     </div>
-</body>
+  </body>
 </html>
